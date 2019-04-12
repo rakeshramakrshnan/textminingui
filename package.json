@@ -1,0 +1,28 @@
+{
+  "name": "black-kit",
+  "description": "Bootstrap 4 Black Design",
+  "version": "1.0.1",
+  "homepage": "https://github.com/rrakesh711/textmining.github.io",
+  "author": "Rakesh Ramakrishnan",
+  "license": "Open",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-install": "^1.1.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.3"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "scripts": {
+   "start": "react-scripts start",
+   "predeploy": "yarn run build",
+   "deploy": "gh-pages -d build",
+   "build": "react-scripts build",
+   "test": "react-scripts test",
+   "eject": "react-scripts eject"
+}
+}
