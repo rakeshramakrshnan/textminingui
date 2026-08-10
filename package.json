@@ -6,7 +6,7 @@
   "author": "Rakesh Ramakrishnan",
   "license": "Open",
   "devDependencies": {
-    "gulp": "^4.0.0",
+    "gulp": "^5.0.1",
     "gulp-autoprefixer": "^10.0.0",
     "gulp-clean": "^0.3.2",
     "gulp-install": "^1.1.0",
@@ -15,7 +15,7 @@
     "gulp-sourcemaps": "^2.6.3"
   },
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^6.3.0"
   },
   "scripts": {
    "start": "react-scripts start",
